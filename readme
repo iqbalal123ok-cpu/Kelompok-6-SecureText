@@ -1,0 +1,41 @@
+# SecureText — Enkripsi dan Dekripsi Pesan dengan Caesar Cipher
+
+Project Matematika Diskrit — Kelompok 6
+- Iqbal Alqadri Borotan
+- Raphael Tamtama Pasaribu
+- Rafa Alhaqqu Lingga
+- Nazmi Fakhri Aditya
+
+## Deskripsi
+Program sederhana untuk mengenkripsi dan mendekripsi pesan teks
+menggunakan algoritma Caesar Cipher dengan operasi aritmetika modular.
+
+## Kebutuhan
+- Python 3.x
+- Tidak memerlukan library eksternal
+
+## Cara Menjalankan
+1. Pastikan Python 3 sudah terpasang.
+2. Buka terminal atau command prompt.
+3. Masuk ke folder project:
+   cd Kelompok_06_SecureText_CaesarCipher
+4. Jalankan program:
+   python caesar.py
+5. Masukkan pesan dan kunci saat diminta.
+
+## Contoh Input dan Output
+Masukkan pesan: HALO
+Masukkan kunci: 3
+Ciphertext:  KDOR
+Dekripsi  :  HALO
+
+## Struktur File
+- caesar.py      : source code utama
+- README.md      : dokumentasi singkat
+- laporan.pdf    : laporan project
+
+## Catatan
+- Hanya mendukung huruf alfabet A–Z.
+- Huruf kecil otomatis dikonversi ke huruf besar.
+- Spasi dan tanda baca tidak diubah.
+- Kunci berupa bilangan bulat.
